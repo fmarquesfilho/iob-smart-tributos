@@ -1,0 +1,9 @@
+﻿{
+  "profiles": {
+    "calcularTributos": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7077",
+      "launchBrowser": false
+    }
+  }
+}
