@@ -97,11 +97,6 @@ namespace calcularTributos
                     // add the tributo to the list
                     tributos.Add(tributo);
                 }
-
-                // log the number of tributos in the list
-                _logger.LogInformation(tributos.Count.ToString());
-                // print the list of tributos
-                _logger.LogInformation(JsonConvert.SerializeObject(tributos));
                 
                 // add a new record in the tributos table for each tributo in the list
                 foreach (var tributo in tributos) {
